@@ -1,0 +1,19 @@
+# Ignore EVERYTHING
+*
+
+# Allow folders to be traversed
+!*/
+
+# Allow Assets folder
+!Assets/
+!Assets/**
+
+# (Optional but recommended for Unity functionality)
+!ProjectSettings/
+!ProjectSettings/**
+
+!Packages/
+!Packages/**
+
+# Always include the gitignore itself
+!.gitignore
