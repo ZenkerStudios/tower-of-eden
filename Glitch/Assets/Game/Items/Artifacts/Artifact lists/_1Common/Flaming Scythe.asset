@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d382b29a4f7af4ed7a6c2487b6472112, type: 3}
+  m_Name: Flaming Scythe
+  m_EditorClassIdentifier: 
+  artifactName: 
+  artifactDesc: Upon pick up, Attack deals Fire <sprite=37> Damage
+  rarity: 2
+  artifactIndex: 2
+  damageType: {fileID: 11400000, guid: 65d4d62f1094f4cd1a3bbf4ba69b016c, type: 2}
+  artifactSprite: {fileID: 21300000, guid: 048d1b7c00c1d7749a3b6798f86b68f4, type: 3}
+  thisArtifact:
+    isDisabled: 1
+    encounterCount: 0
+    takedownCount: 0
+    abilityCount: 0

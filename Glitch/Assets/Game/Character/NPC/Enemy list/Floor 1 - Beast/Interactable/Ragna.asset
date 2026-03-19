@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 651f3990e65c44f57b9315796d2bf2dc, type: 3}
+  m_Name: Ragna
+  m_EditorClassIdentifier: 
+  background: 
+  thisNpc: 3
+  characterName: Ragna, The Empress
+  npcSprite: {fileID: 21300000, guid: 83e0a9ae0ba247649b8cc7e3360e278e, type: 3}
+  npcSpriteIndex: 8
+  maxAdmiration: 0
+  familiarAdmirationThreshold: 0
+  giftable: 0
+  lowDialogueChance: 0
+  barkChance: 15
+  barkCooldown: 2
+  barks:
+  - {fileID: 11400000, guid: 4ba9b89966a8f5b4eb111629d289ba9a, type: 2}
+  - {fileID: 11400000, guid: 9e4b3b90c476bf74dbfb4621984ae12c, type: 2}
+  - {fileID: 11400000, guid: 1f14cfd03e95c8e43888916630dda91a, type: 2}
+  - {fileID: 11400000, guid: 5e45c9b893b3ea445b36df4af34143df, type: 2}
+  - {fileID: 11400000, guid: 646c1a16db6af634cacc747dc24dbc87, type: 2}
+  - {fileID: 11400000, guid: 9145baa432f60a84bbc909582fbb890b, type: 2}
+  - {fileID: 11400000, guid: 9f8b8f6dc31e33d44af7ada441ed5b3c, type: 2}
+  - {fileID: 11400000, guid: c7a395afa31f0a74fac60dac48cbead4, type: 2}
+  deathBarks: []
+  abilityBarks:
+  - {fileID: 11400000, guid: 4ba9b89966a8f5b4eb111629d289ba9a, type: 2}
+  - {fileID: 11400000, guid: 9e4b3b90c476bf74dbfb4621984ae12c, type: 2}
+  - {fileID: 11400000, guid: 5e45c9b893b3ea445b36df4af34143df, type: 2}
+  - {fileID: 11400000, guid: 646c1a16db6af634cacc747dc24dbc87, type: 2}
+  - {fileID: 11400000, guid: 9145baa432f60a84bbc909582fbb890b, type: 2}
+  - {fileID: 11400000, guid: 9f8b8f6dc31e33d44af7ada441ed5b3c, type: 2}
+  onPlayerDeathBark:
+  - {fileID: 11400000, guid: 1f14cfd03e95c8e43888916630dda91a, type: 2}
+  - {fileID: 11400000, guid: c7a395afa31f0a74fac60dac48cbead4, type: 2}
+  isBarking: 0

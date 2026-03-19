@@ -1,19 +1,35 @@
 # Ignore EVERYTHING
 *
 
-# Allow folders to be traversed
+# Allow folder traversal
 !*/
 
-# Allow Assets folder
-!Assets/
-!Assets/**
+# Allow only Glitch/Assets
+!Glitch/
+!Glitch/Assets/**/*.asset
+!Glitch/Assets/**/*.cs
 
-# (Optional but recommended for Unity functionality)
-!ProjectSettings/
-!ProjectSettings/**
-
-!Packages/
-!Packages/**
-
-# Always include the gitignore itself
+# Always include gitignore
 !.gitignore
+
+# ----------------------------
+# Exclude specific file types
+# ----------------------------
+Glitch/Assets/**/*.ogg
+Glitch/Assets/**/*.wav
+Glitch/Assets/**/*.png
+Glitch/Assets/**/*.psd
+Glitch/Assets/**/*.meta
+Glitch/Assets/**/*.shader
+Glitch/Assets/**/*.mat
+Glitch/Assets/**/*.prefab
+Glitch/Assets/Settings/**
+Glitch/Assets/TextMesh Pro/**
+Glitch/Assets/Plugins/**
+Glitch/Assets/Game/Fonts/**
+Glitch/Assets/Game/Audio/**
+Glitch/Assets/Game/VFX/**
+Glitch/Assets/UniversalRP.asset
+Glitch/Assets/UniversalRenderPipelineGlobalSettings.asset
+Glitch/Assets/UIShaderEffects-EdgeEffects/**
+Glitch/Assets/Renderer2D.asset

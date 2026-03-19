@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 651f3990e65c44f57b9315796d2bf2dc, type: 3}
+  m_Name: F2_Generic
+  m_EditorClassIdentifier: 
+  background: 
+  thisNpc: 15
+  characterName: F2 NPC
+  npcSprite: {fileID: 21300000, guid: fa994c08c2b57423fbd00256b2a5c3e7, type: 3}
+  maxAdmiration: 0
+  familiarAdmirationThreshold: 0
+  giftable: 0
+  barkChance: 4
+  barkCooldown: 3
+  barks:
+  - {fileID: 11400000, guid: 8aa10998faa97194d9cca9018354d38b, type: 2}
+  - {fileID: 11400000, guid: d31a22d2733f9d146a763e82b94c8477, type: 2}
+  - {fileID: 11400000, guid: 665dd0020dbb37942bfe960fb39ee545, type: 2}
+  - {fileID: 11400000, guid: d73f0055f39f3a74b8aec73a467a03aa, type: 2}
+  - {fileID: 11400000, guid: 06eeba33520caed41b453e0a1ca3d5a9, type: 2}
+  - {fileID: 11400000, guid: efdd8526e43f38b41a61c0013f2e87eb, type: 2}
+  - {fileID: 11400000, guid: 83e4a4924f557b643875d926b0f17fc1, type: 2}
+  deathBarks: []
+  abilityBarks:
+  - {fileID: 11400000, guid: 8aa10998faa97194d9cca9018354d38b, type: 2}
+  - {fileID: 11400000, guid: d31a22d2733f9d146a763e82b94c8477, type: 2}
+  - {fileID: 11400000, guid: 665dd0020dbb37942bfe960fb39ee545, type: 2}
+  - {fileID: 11400000, guid: d73f0055f39f3a74b8aec73a467a03aa, type: 2}
+  - {fileID: 11400000, guid: 06eeba33520caed41b453e0a1ca3d5a9, type: 2}
+  - {fileID: 11400000, guid: efdd8526e43f38b41a61c0013f2e87eb, type: 2}
+  - {fileID: 11400000, guid: 83e4a4924f557b643875d926b0f17fc1, type: 2}
+  onPlayerDeathBark:
+  - {fileID: 11400000, guid: 8aa10998faa97194d9cca9018354d38b, type: 2}
+  - {fileID: 11400000, guid: d31a22d2733f9d146a763e82b94c8477, type: 2}
+  - {fileID: 11400000, guid: 665dd0020dbb37942bfe960fb39ee545, type: 2}
+  - {fileID: 11400000, guid: d73f0055f39f3a74b8aec73a467a03aa, type: 2}
+  - {fileID: 11400000, guid: 06eeba33520caed41b453e0a1ca3d5a9, type: 2}
+  - {fileID: 11400000, guid: efdd8526e43f38b41a61c0013f2e87eb, type: 2}
+  - {fileID: 11400000, guid: 83e4a4924f557b643875d926b0f17fc1, type: 2}
+  isBarking: 0

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d25248cc3a66f48c591ad59c2dee34a9, type: 3}
+  m_Name: _Grow
+  m_EditorClassIdentifier: 
+  specialSystem: {fileID: 11400000, guid: e6047ae3fcdc54e41b77b6c2729ebd1e, type: 2}
+  canLevelup: 0
+  rarity: 2
+  specialDesc: Temporarily increase Dominance.
+  abilityType: 2
+  targetType: 0
+  numTarget: 1
+  abilityDuration: 5
+  statusChance: 0
+  stats: 0a000000
+  modType: 64000000
+  powerAmount: 05000000
+  skillToGain: {fileID: 0}
+  damageType: {fileID: 0}
+  abilitySprite: {fileID: 21300000, guid: 79eda5aef0c1f46c99ddd9de16666565, type: 3}
+  vfx: {fileID: 8641634708080996445, guid: 506be1ae932e84745908ac960721c8ee, type: 3}
+  audio: Buff

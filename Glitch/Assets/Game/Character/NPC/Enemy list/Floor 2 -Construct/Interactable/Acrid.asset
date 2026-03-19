@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 651f3990e65c44f57b9315796d2bf2dc, type: 3}
+  m_Name: Acrid
+  m_EditorClassIdentifier: 
+  background: 
+  thisNpc: 5
+  characterName: Acrid, The Magician
+  npcSprite: {fileID: 21300000, guid: 8fc9491e0c824d940a182b36398f47da, type: 3}
+  npcSpriteIndex: 6
+  maxAdmiration: 0
+  familiarAdmirationThreshold: 0
+  giftable: 0
+  lowDialogueChance: 0
+  barkChance: 15
+  barkCooldown: 2
+  barks:
+  - {fileID: 11400000, guid: 8557dfe70fbb74043958e219d30495a1, type: 2}
+  - {fileID: 11400000, guid: 3278010ee9547584d8c7acb5631423d9, type: 2}
+  - {fileID: 11400000, guid: c2647bf1cb1cc124c9a53e9457e74218, type: 2}
+  - {fileID: 11400000, guid: 7860d431e95206d4a890f8e5d2835799, type: 2}
+  - {fileID: 11400000, guid: 87f5f5c8e3e5e9240a1872d7389c6c05, type: 2}
+  - {fileID: 11400000, guid: 3bafc674c9c70e242b4e571b44e054ba, type: 2}
+  - {fileID: 11400000, guid: 6dbfee55048aa434ca1a94423392127c, type: 2}
+  - {fileID: 11400000, guid: b602f56138cb4d9469994734206dca04, type: 2}
+  - {fileID: 11400000, guid: 6feb21f3993c65e42bc6403fbb75c69c, type: 2}
+  - {fileID: 11400000, guid: d8d645479dd486a459523c79a37e9d7b, type: 2}
+  - {fileID: 11400000, guid: 031bb09fac61ce94db830f33dcd76aa2, type: 2}
+  - {fileID: 11400000, guid: 2c9fffddcd42df64b9f7eef1512867a6, type: 2}
+  - {fileID: 11400000, guid: 8d246121df2f0dd46b361299ed166c1e, type: 2}
+  deathBarks: []
+  abilityBarks:
+  - {fileID: 11400000, guid: c2647bf1cb1cc124c9a53e9457e74218, type: 2}
+  - {fileID: 11400000, guid: 7860d431e95206d4a890f8e5d2835799, type: 2}
+  - {fileID: 11400000, guid: 87f5f5c8e3e5e9240a1872d7389c6c05, type: 2}
+  - {fileID: 11400000, guid: 3bafc674c9c70e242b4e571b44e054ba, type: 2}
+  - {fileID: 11400000, guid: 6dbfee55048aa434ca1a94423392127c, type: 2}
+  - {fileID: 11400000, guid: b602f56138cb4d9469994734206dca04, type: 2}
+  - {fileID: 11400000, guid: d8d645479dd486a459523c79a37e9d7b, type: 2}
+  onPlayerDeathBark:
+  - {fileID: 11400000, guid: 8557dfe70fbb74043958e219d30495a1, type: 2}
+  - {fileID: 11400000, guid: 3278010ee9547584d8c7acb5631423d9, type: 2}
+  - {fileID: 11400000, guid: 6feb21f3993c65e42bc6403fbb75c69c, type: 2}
+  - {fileID: 11400000, guid: 031bb09fac61ce94db830f33dcd76aa2, type: 2}
+  - {fileID: 11400000, guid: 2c9fffddcd42df64b9f7eef1512867a6, type: 2}
+  - {fileID: 11400000, guid: 8d246121df2f0dd46b361299ed166c1e, type: 2}
+  isBarking: 0

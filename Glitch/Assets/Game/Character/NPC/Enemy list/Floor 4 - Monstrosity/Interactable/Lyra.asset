@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 651f3990e65c44f57b9315796d2bf2dc, type: 3}
+  m_Name: Lyra
+  m_EditorClassIdentifier: 
+  background: 
+  thisNpc: 7
+  characterName: Lyra, The High Priestess
+  npcSprite: {fileID: 3839084011602235351, guid: 7ff9bc4ac3288844db4afb3a78e9559d, type: 3}
+  npcSpriteIndex: 4
+  maxAdmiration: 0
+  familiarAdmirationThreshold: 0
+  giftable: 0
+  lowDialogueChance: 0
+  barkChance: 15
+  barkCooldown: 2
+  barks:
+  - {fileID: 11400000, guid: 8e46385d037af9b4ba0953f44145b1b6, type: 2}
+  - {fileID: 11400000, guid: 64f625095c7183e4fba4626f27abdfb4, type: 2}
+  - {fileID: 11400000, guid: e6c8559ebfbfc814fb0a125777b240e8, type: 2}
+  - {fileID: 11400000, guid: 622965cb402b7af408db53ef68aaf208, type: 2}
+  - {fileID: 11400000, guid: 36dacea8b97d82440a2fafc43f128686, type: 2}
+  - {fileID: 11400000, guid: fe4903db9fdb86d4494a4ff8db56fa2f, type: 2}
+  - {fileID: 11400000, guid: bc94e38a7c0c2db4d9dc5721b46ece73, type: 2}
+  - {fileID: 11400000, guid: 7214cf68e87124c488f5dd516650ea54, type: 2}
+  - {fileID: 11400000, guid: a814e1c4fb9dd97469dd06d8facea32e, type: 2}
+  - {fileID: 11400000, guid: e7eb55a5743d3b94fa8a44eb9f9c5625, type: 2}
+  - {fileID: 11400000, guid: 6c0b3525a10ef434fa8777dccfb17aa5, type: 2}
+  - {fileID: 11400000, guid: a65db9d8642d3bd4997b84140ff5f627, type: 2}
+  - {fileID: 11400000, guid: db8f06215d7e382459bc2769e82e2084, type: 2}
+  - {fileID: 11400000, guid: cd59d9f17be6f3a4c818afce45859795, type: 2}
+  - {fileID: 11400000, guid: baf0ede21e1424d4592726636990e87f, type: 2}
+  deathBarks: []
+  abilityBarks:
+  - {fileID: 11400000, guid: 8e46385d037af9b4ba0953f44145b1b6, type: 2}
+  - {fileID: 11400000, guid: 64f625095c7183e4fba4626f27abdfb4, type: 2}
+  - {fileID: 11400000, guid: e6c8559ebfbfc814fb0a125777b240e8, type: 2}
+  - {fileID: 11400000, guid: 622965cb402b7af408db53ef68aaf208, type: 2}
+  - {fileID: 11400000, guid: 36dacea8b97d82440a2fafc43f128686, type: 2}
+  - {fileID: 11400000, guid: fe4903db9fdb86d4494a4ff8db56fa2f, type: 2}
+  - {fileID: 11400000, guid: bc94e38a7c0c2db4d9dc5721b46ece73, type: 2}
+  - {fileID: 11400000, guid: 7214cf68e87124c488f5dd516650ea54, type: 2}
+  - {fileID: 11400000, guid: a814e1c4fb9dd97469dd06d8facea32e, type: 2}
+  - {fileID: 11400000, guid: e7eb55a5743d3b94fa8a44eb9f9c5625, type: 2}
+  onPlayerDeathBark:
+  - {fileID: 11400000, guid: 6c0b3525a10ef434fa8777dccfb17aa5, type: 2}
+  - {fileID: 11400000, guid: db8f06215d7e382459bc2769e82e2084, type: 2}
+  - {fileID: 11400000, guid: cd59d9f17be6f3a4c818afce45859795, type: 2}
+  - {fileID: 11400000, guid: baf0ede21e1424d4592726636990e87f, type: 2}
+  - {fileID: 11400000, guid: a65db9d8642d3bd4997b84140ff5f627, type: 2}
+  isBarking: 0

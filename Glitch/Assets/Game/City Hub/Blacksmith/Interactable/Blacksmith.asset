@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 651f3990e65c44f57b9315796d2bf2dc, type: 3}
+  m_Name: Blacksmith
+  m_EditorClassIdentifier: 
+  background: 
+  thisNpc: 0
+  characterName: Arlo
+  npcSprite: {fileID: 21300000, guid: fa201eb884a7b5945881a8b46a363dd1, type: 3}
+  npcSpriteIndex: 10
+  maxAdmiration: 12
+  familiarAdmirationThreshold: 7
+  giftable: 1
+  lowDialogueChance: 60
+  barkChance: 35
+  barkCooldown: 1
+  barks:
+  - {fileID: 11400000, guid: 4ab31f056bb27f149a02aaaba93a852d, type: 2}
+  - {fileID: 11400000, guid: 18cbf97c52803604989f35877b6b3250, type: 2}
+  - {fileID: 11400000, guid: 2a78643cb7916224383ba18362995dd5, type: 2}
+  - {fileID: 11400000, guid: 12ac8d02deec4be4aa15d1a3db5f759a, type: 2}
+  deathBarks:
+  - {fileID: 11400000, guid: 4a6438887a2c23d4a92137bd84a5732e, type: 2}
+  - {fileID: 11400000, guid: 89e016727beba6248b80ccee1b4a5b95, type: 2}
+  - {fileID: 11400000, guid: 9f3082a0e1def0c4bb83e15a064fcf76, type: 2}
+  abilityBarks:
+  - {fileID: 11400000, guid: 060ba6c2c3b99964c97d26199aac7398, type: 2}
+  - {fileID: 11400000, guid: 1eb75d5698d90b343b99d3a75a34fcfb, type: 2}
+  - {fileID: 11400000, guid: af7e0006bc54f86489f58459cc85022d, type: 2}
+  - {fileID: 11400000, guid: f7b8096cfee309f49aceb6b08984dcee, type: 2}
+  - {fileID: 11400000, guid: 5af438b1517d1bd419d8b69373233534, type: 2}
+  onPlayerDeathBark:
+  - {fileID: 11400000, guid: 6e93aa4fee5f03342a36ea713909a20e, type: 2}
+  - {fileID: 11400000, guid: 67df8ed6c444eab45aefbc718a43afe9, type: 2}
+  - {fileID: 11400000, guid: 812a12deb97bbf14abc50a2c1eb7f57e, type: 2}
+  isBarking: 0

@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f2c2cd9a22e54a1d8b7618e32206c22, type: 3}
+  m_Name: Ulea, The Star 1
+  m_EditorClassIdentifier: 
+  background: ...
+  isBoss: 1
+  isInteractable: 0
+  enemySprite: {fileID: 21300000, guid: b18362a3930e4344bbd065b1f3b9d9be, type: 3}
+  enemyIcon: {fileID: 0}
+  enemySystem: {fileID: 11400000, guid: a00ff32eae837410cbb9c082cd5a3b27, type: 2}
+  _myType: {fileID: 11400000, guid: 6be1dcecad478444cb5225228c043fbb, type: 2}
+  block: 0
+  maxMeterGain: 3
+  maxHealth:
+    baseValue: 300
+    maxValue: 9999
+    minValue: 250
+    statModifiers: []
+  accuracy:
+    baseValue: 80
+    maxValue: 100
+    minValue: 0
+    statModifiers: []
+  critChance:
+    baseValue: 25
+    maxValue: 100
+    minValue: 1
+    statModifiers: []
+  actions:
+    baseValue: 1
+    maxValue: 4
+    minValue: 1
+    statModifiers: []
+  startingSpecialMeter: 3
+  freezeFor: 1
+  poisonFor: 2
+  burningInfo: 0200000005000000
+  vulnerableInfo:
+  - 2
+  - 1.5
+  shockedInfo: 020000000a000000
+  damnationInfo: 0200000001000000050000000a000000
+  iceResist: 0
+  fireResist: 0
+  poisonResist: 0
+  psychicResist: 20
+  lightningResist: 0
+  iceStatus: 0
+  fireStatus: 0
+  poisonStatus: 0
+  psychicStatus: 0
+  lightningStatus: 0
+  lifesteal:
+    baseValue: 75
+    maxValue: 100
+    minValue: 0
+    statModifiers: []
+  healChance:
+    baseValue: 0
+    maxValue: 100
+    minValue: 0
+    statModifiers: []
+  toughness:
+    baseValue: 0
+    maxValue: 100
+    minValue: 0
+    statModifiers: []
+  resistances:
+  - {fileID: 11400000, guid: 423e6900d04ce47c09d4093f6f008fa3, type: 2}
+  - {fileID: 11400000, guid: f6e849331cc384d5185336df60b3f834, type: 2}
+  attacks:
+  - {fileID: 11400000, guid: 577609aeebcb045fab52e737086c0cb3, type: 2}
+  - {fileID: 11400000, guid: c089a688d6f5140138192006a9c30edb, type: 2}
+  - {fileID: 11400000, guid: 67baf921e8c4a4ef2965f5fa52b182c4, type: 2}
+  - {fileID: 11400000, guid: 21a5ab4f7c587455c8f0ee42252a5715, type: 2}
+  - {fileID: 11400000, guid: e6f804afb5744428d8fd1eb38d93c6ec, type: 2}
+  - {fileID: 11400000, guid: 309c93afd05a8415da2b777e91ad0c88, type: 2}
+  - {fileID: 11400000, guid: 827168362381c4dca9e96ee6288a61c3, type: 2}
+  - {fileID: 11400000, guid: 03b36e4577c364c4ca3f35121641f1c3, type: 2}
+  - {fileID: 11400000, guid: c089a688d6f5140138192006a9c30edb, type: 2}
+  - {fileID: 11400000, guid: d061a3ab3940f468c900f77705b7ecdd, type: 2}
+  - {fileID: 11400000, guid: 577609aeebcb045fab52e737086c0cb3, type: 2}
+  - {fileID: 11400000, guid: 577609aeebcb045fab52e737086c0cb3, type: 2}
+  bossSpecials: []
+  specialAbility: {fileID: 0}
+  allyTokens: []
+  maxNumAllies: 1
+  abilityAfterDeath: 0
+  deathAbility: {fileID: 0}
+  dazedResAbility: 0
+  echoAbillity: 0
+  echoTokens: {fileID: 0}
+  canRevive: 0
+  reviveTokens: {fileID: 0}
+  isTransforming: 0
+  transformationTurn: 0
+  abilityOnSelfDestruct: 0
+  canSelfDestruct: 0
+  selfDestructTurn: 0
+  interactableNpc: {fileID: 11400000, guid: d516812d6a3e24d53aeed0d44fdf76ad, type: 2}
+  allAbilites: []
+  traits: []

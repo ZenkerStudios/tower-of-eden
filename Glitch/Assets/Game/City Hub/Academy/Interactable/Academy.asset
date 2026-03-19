@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 651f3990e65c44f57b9315796d2bf2dc, type: 3}
+  m_Name: Academy
+  m_EditorClassIdentifier: 
+  background: 
+  thisNpc: 1
+  characterName: Agnes
+  npcSprite: {fileID: 21300000, guid: c3dbae3de1276a84dbe168d7a5f06b0f, type: 3}
+  npcSpriteIndex: 9
+  maxAdmiration: 12
+  familiarAdmirationThreshold: 7
+  giftable: 1
+  lowDialogueChance: 60
+  barkChance: 35
+  barkCooldown: 1
+  barks:
+  - {fileID: 11400000, guid: 19ba94eea0dbeb4478d87598aeadc526, type: 2}
+  - {fileID: 11400000, guid: 85d7dda871f87924488de7f560257c8a, type: 2}
+  - {fileID: 11400000, guid: 2853a971756a4054eba7d561e2064332, type: 2}
+  deathBarks:
+  - {fileID: 11400000, guid: 0ec79d6e5ac3fe74e8b1dc82c4dc154b, type: 2}
+  - {fileID: 11400000, guid: b21f02318363506419d5cbd6c6c212f8, type: 2}
+  - {fileID: 11400000, guid: 5cd7e8a2005b3c84ebd1b537a90f2456, type: 2}
+  abilityBarks:
+  - {fileID: 11400000, guid: 4fe8ae7b3d3b60443b2b3398dded6e0d, type: 2}
+  - {fileID: 11400000, guid: 097184313a926804b87007b13b7445d7, type: 2}
+  - {fileID: 11400000, guid: 6731960858af18e489007e04193574e4, type: 2}
+  - {fileID: 11400000, guid: 50d204c887decd748b77e8b73288e158, type: 2}
+  - {fileID: 11400000, guid: ac485b93fd245504c83b383b3100ed70, type: 2}
+  - {fileID: 11400000, guid: 6f0bb0aec157e2144816ac8b5ae65015, type: 2}
+  onPlayerDeathBark:
+  - {fileID: 11400000, guid: fffbe247f91c8a048982b8cd9bffef46, type: 2}
+  - {fileID: 11400000, guid: 3cb8507f255b4774bbfd43178cec0022, type: 2}
+  - {fileID: 11400000, guid: 732897b9723c2fa4192325ef2a030c63, type: 2}
+  - {fileID: 11400000, guid: 24598000bb3d6b443a5c9be2b8b6bcab, type: 2}
+  isBarking: 0

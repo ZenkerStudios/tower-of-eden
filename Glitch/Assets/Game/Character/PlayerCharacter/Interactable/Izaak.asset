@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 651f3990e65c44f57b9315796d2bf2dc, type: 3}
+  m_Name: Izaak
+  m_EditorClassIdentifier: 
+  background: 
+  thisNpc: 13
+  characterName: Izaak
+  npcSprite: {fileID: 21300000, guid: 7c802f4937bb6c04d94f837f0e75a5de, type: 3}
+  maxAdmiration: 0
+  familiarAdmirationThreshold: 0
+  giftable: 0
+  lowDialogueChance: 0
+  barkChance: 0
+  barkCooldown: 0
+  barks:
+  - {fileID: 11400000, guid: 97b5b45791aa83449a0c9eb85d5babab, type: 2}
+  - {fileID: 11400000, guid: b99e4cac1990f084184172d3f0c14d17, type: 2}
+  - {fileID: 11400000, guid: b248894dccf85ec489383d586d54a1fe, type: 2}
+  - {fileID: 11400000, guid: 346d2cfc6b9a1b34cbbbd1d7e50cf128, type: 2}
+  - {fileID: 11400000, guid: e6c8559ebfbfc814fb0a125777b240e8, type: 2}
+  - {fileID: 11400000, guid: bb0a7b1a66a37034e813e4875358c442, type: 2}
+  - {fileID: 11400000, guid: e4d8de538f68fa642843d441a0b4edec, type: 2}
+  - {fileID: 11400000, guid: 45eb7baeb618ade48975a2ec1d966fee, type: 2}
+  - {fileID: 11400000, guid: 5533d96118251734eaa3cf599b82f0ae, type: 2}
+  - {fileID: 11400000, guid: f053dc6488f2e2e46a4a8f613bf21bd4, type: 2}
+  deathBarks:
+  - {fileID: 11400000, guid: 498e1d390a3f9774eb237cd45a6bc067, type: 2}
+  - {fileID: 11400000, guid: f1d65770ce73dd546a7d01ec6861a211, type: 2}
+  - {fileID: 11400000, guid: 5a503e8e7a7bcf54c87812e938d6205c, type: 2}
+  - {fileID: 11400000, guid: 601c577acd6956e4b919bfcc92c5f204, type: 2}
+  - {fileID: 11400000, guid: 99ce905f4f2b48542bc5ef59a3762a4d, type: 2}
+  - {fileID: 11400000, guid: a74f88623b0774a478f5d2dd5861790b, type: 2}
+  - {fileID: 11400000, guid: 9a6534f7f5d287d4b83edc96a3cccd22, type: 2}
+  - {fileID: 11400000, guid: 3ac693612f09fa443aff54ac4dca6a40, type: 2}
+  - {fileID: 11400000, guid: 363caa512a4f5ed4987fa8c3ccd72c92, type: 2}
+  - {fileID: 11400000, guid: dafaeec8a57876d4d88d1910efe5e248, type: 2}
+  - {fileID: 11400000, guid: aa005c0a2bd12c64bb7148fc9e1171b0, type: 2}
+  - {fileID: 11400000, guid: 5f835b9173b9d6746b83693ac628bd41, type: 2}
+  - {fileID: 11400000, guid: 289693daef8c51f4ab7ab39dc5422241, type: 2}
+  - {fileID: 11400000, guid: 32088104dd0f74c419ba05b1b71af504, type: 2}
+  abilityBarks: []
+  onPlayerDeathBark:
+  - {fileID: 11400000, guid: d7331c24c1473cc4895434f38a125335, type: 2}
+  - {fileID: 11400000, guid: 29f7b2dba175eee408b9414eed3fe404, type: 2}
+  - {fileID: 11400000, guid: 031f4face63f5284bbb5a6aa52a5f30f, type: 2}
+  - {fileID: 11400000, guid: fab709a2c72359440b53b40ad8a25dff, type: 2}
+  - {fileID: 11400000, guid: b8a72631bfc5b5b44b510a841edeb379, type: 2}
+  - {fileID: 11400000, guid: a54003603cf86e349890a38449c2794b, type: 2}
+  - {fileID: 11400000, guid: b0672c53369315e4fbf9d991a23ff7b4, type: 2}
+  - {fileID: 11400000, guid: 4602805b29ca78e4fbc3150a7d5d91d8, type: 2}
+  - {fileID: 11400000, guid: 44cb2a031eb62304c8cd19217d639b3e, type: 2}
+  - {fileID: 11400000, guid: de23ce23f3bc2404583b82761711e118, type: 2}
+  - {fileID: 11400000, guid: 1c6a1f052435c17469ba713d542c07c6, type: 2}
+  - {fileID: 11400000, guid: 31b190a2411799f4089d2204043dc85c, type: 2}
+  - {fileID: 11400000, guid: 1f7236ef1860c4049b9d6b1c48c26623, type: 2}
+  - {fileID: 11400000, guid: a1212bb2a4111864c93dac39cc7166dd, type: 2}
+  - {fileID: 11400000, guid: 71c61c32ddc3cde44ac743b07e2471d1, type: 2}
+  isBarking: 0

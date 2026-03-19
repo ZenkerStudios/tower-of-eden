@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d382b29a4f7af4ed7a6c2487b6472112, type: 3}
+  m_Name: Coat of Permafrost
+  m_EditorClassIdentifier: 
+  artifactName: 
+  artifactDesc: Increase Ice <sprite=42> Resist by 10
+  rarity: 3
+  artifactIndex: 21
+  damageType: {fileID: 11400000, guid: bf1dcdf3561cc422daa0de8e3ae9874d, type: 2}
+  artifactSprite: {fileID: 21300000, guid: 7a7ef8b67c959574bb78e5dc81eec859, type: 3}
+  thisArtifact:
+    isDisabled: 0
+    encounterCount: 0
+    takedownCount: 0
+    abilityCount: 0

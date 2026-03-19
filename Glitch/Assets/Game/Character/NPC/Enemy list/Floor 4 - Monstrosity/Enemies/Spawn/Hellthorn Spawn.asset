@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f2c2cd9a22e54a1d8b7618e32206c22, type: 3}
+  m_Name: Hellthorn Spawn
+  m_EditorClassIdentifier: 
+  background: I'm unsure of what I'm looking at. I'm certain they are not from here.
+  isBoss: 0
+  isInteractable: 0
+  enemySprite: {fileID: 21300000, guid: e08650869443eaa4fb621e0825dee9a1, type: 3}
+  enemyIcon: {fileID: 21300000, guid: e08650869443eaa4fb621e0825dee9a1, type: 3}
+  enemySystem: {fileID: 11400000, guid: a00ff32eae837410cbb9c082cd5a3b27, type: 2}
+  _myType: {fileID: 11400000, guid: 09cc170647e9a4a47be9a44d2f847573, type: 2}
+  block: 0
+  maxMeterGain: 0
+  maxHealth:
+    baseValue: 115
+    maxValue: 9999
+    minValue: 70
+    statModifiers: []
+  accuracy:
+    baseValue: 70
+    maxValue: 100
+    minValue: 0
+    statModifiers: []
+  critChance:
+    baseValue: 30
+    maxValue: 100
+    minValue: 1
+    statModifiers: []
+  actions:
+    baseValue: 1
+    maxValue: 3
+    minValue: 1
+    statModifiers: []
+  startingSpecialMeter: 0
+  freezeFor: 1
+  poisonFor: 2
+  burningInfo: 020000000a000000
+  vulnerableInfo:
+  - 2
+  - 1.5
+  shockedInfo: 020000000a000000
+  damnationInfo: 0200000001000000050000000a000000
+  iceResist: 0
+  fireResist: 20
+  poisonResist: 20
+  psychicResist: 0
+  lightningResist: 0
+  iceStatus: 0
+  fireStatus: 0
+  poisonStatus: 0
+  psychicStatus: 0
+  lightningStatus: 0
+  lifesteal:
+    baseValue: 50
+    maxValue: 100
+    minValue: 0
+    statModifiers: []
+  healChance:
+    baseValue: 0
+    maxValue: 100
+    minValue: 0
+    statModifiers: []
+  toughness:
+    baseValue: 0
+    maxValue: 100
+    minValue: 0
+    statModifiers: []
+  resistances: []
+  attacks:
+  - {fileID: 11400000, guid: dce83fd6f2e2841a98e604eb3a43b658, type: 2}
+  - {fileID: 11400000, guid: 2ca27fe081cfb4ba6ba76c7f3d83fd69, type: 2}
+  - {fileID: 11400000, guid: 4da42acbd56d94edb8c26a7322da4fb7, type: 2}
+  - {fileID: 11400000, guid: 60314d17c80004c3cb9f83fa74a69514, type: 2}
+  - {fileID: 11400000, guid: 3efd2c63038a34e29875912cc36dad2a, type: 2}
+  - {fileID: 11400000, guid: dce83fd6f2e2841a98e604eb3a43b658, type: 2}
+  - {fileID: 11400000, guid: 0864a56f156ca4cfe9e00c53e1d57e4d, type: 2}
+  bossSpecials: []
+  specialAbility: {fileID: 0}
+  allyTokens: []
+  maxNumAllies: 0
+  abilityAfterDeath: 1
+  deathAbility: {fileID: 11400000, guid: f013a936931604ac68d4f6da2756061b, type: 2}
+  dazedResAbility: 0
+  echoAbillity: 0
+  echoTokens: {fileID: 0}
+  canRevive: 0
+  reviveTokens: {fileID: 0}
+  isTransforming: 0
+  transformationTurn: 0
+  abilityOnSelfDestruct: 0
+  canSelfDestruct: 0
+  selfDestructTurn: 0
+  interactableNpc: {fileID: 0}
+  allAbilites: []
+  traits:
+  - trait: 18
+    powerAmount: 20

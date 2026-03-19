@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f2c2cd9a22e54a1d8b7618e32206c22, type: 3}
+  m_Name: Bosney, The Hanged Man
+  m_EditorClassIdentifier: 
+  background: He says his name is Bosney. I knew they experimented on people, but
+    not to this extent. He dedicated his body to this kingdom, and in return, this
+    is what remains of him. I'm sorry.
+  isBoss: 1
+  isInteractable: 1
+  enemySprite: {fileID: 21300000, guid: 4cc9d0f2dd5d14719ae158dabfc5e4f6, type: 3}
+  enemyIcon: {fileID: 21300000, guid: 4cc9d0f2dd5d14719ae158dabfc5e4f6, type: 3}
+  enemySystem: {fileID: 11400000, guid: a00ff32eae837410cbb9c082cd5a3b27, type: 2}
+  _myType: {fileID: 11400000, guid: 3a33be39811074743822490dc7d3faa6, type: 2}
+  block: 0
+  maxMeterGain: 4
+  maxHealth:
+    baseValue: 250
+    maxValue: 9999
+    minValue: 200
+    statModifiers: []
+  accuracy:
+    baseValue: 80
+    maxValue: 100
+    minValue: 0
+    statModifiers: []
+  critChance:
+    baseValue: 25
+    maxValue: 100
+    minValue: 1
+    statModifiers: []
+  actions:
+    baseValue: 1
+    maxValue: 3
+    minValue: 1
+    statModifiers: []
+  startingSpecialMeter: 4
+  freezeFor: 1
+  poisonFor: 2
+  burningInfo: 0200000005000000
+  vulnerableInfo:
+  - 2
+  - 1.5
+  shockedInfo: 020000000a000000
+  damnationInfo: 0200000001000000050000000a000000
+  iceResist: 0
+  fireResist: 0
+  poisonResist: 20
+  psychicResist: 20
+  lightningResist: 0
+  iceStatus: 0
+  fireStatus: 0
+  poisonStatus: 0
+  psychicStatus: 0
+  lightningStatus: 0
+  lifesteal:
+    baseValue: 0
+    maxValue: 100
+    minValue: 0
+    statModifiers: []
+  healChance:
+    baseValue: 0
+    maxValue: 100
+    minValue: 0
+    statModifiers: []
+  toughness:
+    baseValue: 0
+    maxValue: 100
+    minValue: 0
+    statModifiers: []
+  resistances: []
+  attacks:
+  - {fileID: 11400000, guid: 26d10ce6ff64c491f8e38828caaed4b5, type: 2}
+  - {fileID: 11400000, guid: 21ed8678eafcd46dab782e5f0096fcae, type: 2}
+  - {fileID: 11400000, guid: 6a351fda873a544f2a48cf0ebd6ecbfc, type: 2}
+  - {fileID: 11400000, guid: f34c213a6976b4682ad301197c79dfe2, type: 2}
+  - {fileID: 11400000, guid: 717dd859e6da04a268f3fed738bcbc1c, type: 2}
+  - {fileID: 11400000, guid: f8c376c4e96de4bd9a9d3e2a92553dca, type: 2}
+  bossSpecials:
+  - {fileID: 11400000, guid: df8fb7d1de3464ab9991edb4511ff398, type: 2}
+  specialAbility: {fileID: 0}
+  allyTokens: []
+  maxNumAllies: 0
+  abilityAfterDeath: 0
+  deathAbility: {fileID: 0}
+  dazedResAbility: 0
+  echoAbillity: 0
+  echoTokens: {fileID: 0}
+  canRevive: 0
+  reviveTokens: {fileID: 0}
+  isTransforming: 0
+  transformationTurn: 0
+  abilityOnSelfDestruct: 0
+  canSelfDestruct: 0
+  selfDestructTurn: 0
+  interactableNpc: {fileID: 11400000, guid: 413f97bf2799a40c4a902173e475ce0c, type: 2}
+  allAbilites: []
+  traits:
+  - trait: 20
+    powerAmount: 2

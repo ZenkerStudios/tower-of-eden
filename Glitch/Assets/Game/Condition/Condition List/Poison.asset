@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2938717eb83e440f83d7fa474068c31, type: 3}
+  m_Name: Poison
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 21300000, guid: a9b0bda85acd84c45aedd1ef3e237cd4, type: 3}
+  spriteIndex: 38
+  desc: Poisoned target cannot heal for /trn turn(s).
+  condName: Poisoned
+  textColor: 93e51e
+  token: {fileID: 6996165001983018257, guid: f634a6c79b93946a5a86b2b0662742c9, type: 3}
+  vfx: {fileID: 4761709107348540522, guid: 9ca51377636734dd2a9c8a4fd012a0b5, type: 3}
+  audio: Poison

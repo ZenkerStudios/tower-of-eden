@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f2c2cd9a22e54a1d8b7618e32206c22, type: 3}
+  m_Name: Eden Corrupted
+  m_EditorClassIdentifier: 
+  background: The Astrian king, he's not what I imagined. The years of isolation
+    must be getting to him.
+  isBoss: 1
+  isInteractable: 1
+  enemySprite: {fileID: 21300000, guid: 7e1d6d2a3572d1346895ec8eb9bbf462, type: 3}
+  enemyIcon: {fileID: 21300000, guid: 7e1d6d2a3572d1346895ec8eb9bbf462, type: 3}
+  enemySystem: {fileID: 11400000, guid: a00ff32eae837410cbb9c082cd5a3b27, type: 2}
+  _myType: {fileID: 11400000, guid: 1e414572d67894b39a6c5067898662cd, type: 2}
+  block: 0
+  maxMeterGain: 5
+  maxHealth:
+    baseValue: 300
+    maxValue: 9999
+    minValue: 250
+    statModifiers: []
+  accuracy:
+    baseValue: 80
+    maxValue: 100
+    minValue: 0
+    statModifiers: []
+  critChance:
+    baseValue: 20
+    maxValue: 100
+    minValue: 1
+    statModifiers: []
+  actions:
+    baseValue: 3
+    maxValue: 4
+    minValue: 1
+    statModifiers: []
+  startingSpecialMeter: 0
+  freezeFor: 1
+  poisonFor: 3
+  burningInfo: 0200000005000000
+  vulnerableInfo:
+  - 3
+  - 1.5
+  shockedInfo: 020000000a000000
+  damnationInfo: 02000000010000000a0000000a000000
+  iceResist: 30
+  fireResist: 30
+  poisonResist: 30
+  psychicResist: 30
+  lightningResist: 30
+  iceStatus: 20
+  fireStatus: 20
+  poisonStatus: 20
+  psychicStatus: 20
+  lightningStatus: 20
+  lifesteal:
+    baseValue: 0
+    maxValue: 100
+    minValue: 0
+    statModifiers: []
+  healChance:
+    baseValue: 0
+    maxValue: 100
+    minValue: 0
+    statModifiers: []
+  toughness:
+    baseValue: 0
+    maxValue: 100
+    minValue: 0
+    statModifiers: []
+  resistances: []
+  attacks:
+  - {fileID: 11400000, guid: 473388c4b20a6fc4ca76c1091d1671e0, type: 2}
+  - {fileID: 11400000, guid: b1d0af6bc3db55e4892a0edadde8a15c, type: 2}
+  - {fileID: 11400000, guid: cc36ec7a94d6c074784eab5ad7c0b014, type: 2}
+  - {fileID: 11400000, guid: 229112a41de9dc543b497e19aed96c53, type: 2}
+  - {fileID: 11400000, guid: 9457094a95d3e3147a2e827cbeff3a5a, type: 2}
+  - {fileID: 11400000, guid: 9e80987354223da41b12134cf5d1d7bb, type: 2}
+  - {fileID: 11400000, guid: e1ca4cafe31a60548ab10d1a1aa6f3ec, type: 2}
+  - {fileID: 11400000, guid: eb386b8dddc2d1442a495f0bf486902a, type: 2}
+  - {fileID: 11400000, guid: eb386b8dddc2d1442a495f0bf486902a, type: 2}
+  bossSpecials:
+  - {fileID: 11400000, guid: cf9bab8b1213f07449807429d8988420, type: 2}
+  - {fileID: 11400000, guid: a69aa06b846a7714cba59b58940ea141, type: 2}
+  - {fileID: 11400000, guid: 2485907405697ac4ea4d304ab73b455c, type: 2}
+  specialAbility: {fileID: 0}
+  allyTokens: []
+  maxNumAllies: 0
+  abilityAfterDeath: 0
+  deathAbility: {fileID: 0}
+  dazedResAbility: 0
+  echoAbillity: 0
+  echoTokens: {fileID: 0}
+  canRevive: 0
+  reviveTokens: {fileID: 0}
+  isTransforming: 0
+  transformationTurn: 0
+  abilityOnSelfDestruct: 0
+  canSelfDestruct: 0
+  selfDestructTurn: 0
+  interactableNpc: {fileID: 11400000, guid: d1a91f304d880493a8086ae34c071e20, type: 2}
+  allAbilites: []
+  traits:
+  - trait: 7
+    powerAmount: 40

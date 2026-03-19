@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f2c2cd9a22e54a1d8b7618e32206c22, type: 3}
+  m_Name: Mandrake
+  m_EditorClassIdentifier: 
+  background: There is no easy way around this one. Attacking this overgrown root
+    won't do much. It'll keep coming back no matter how many times I cut it down.
+    I just need to trim it down enough to clear a path and hope I don't run into
+    the main body.
+  isBoss: 1
+  isInteractable: 0
+  enemySprite: {fileID: 21300000, guid: 4f378533eedcb4a16927ae4791b2def8, type: 3}
+  enemyIcon: {fileID: 0}
+  enemySystem: {fileID: 11400000, guid: a00ff32eae837410cbb9c082cd5a3b27, type: 2}
+  _myType: {fileID: 11400000, guid: ed05bafae195c4b30911da0c9f55c49b, type: 2}
+  block: 0
+  maxMeterGain: 8
+  maxHealth:
+    baseValue: 80
+    maxValue: 9999
+    minValue: 10
+    statModifiers: []
+  accuracy:
+    baseValue: 80
+    maxValue: 100
+    minValue: 1
+    statModifiers: []
+  critChance:
+    baseValue: 15
+    maxValue: 100
+    minValue: 1
+    statModifiers: []
+  actions:
+    baseValue: 1
+    maxValue: 3
+    minValue: 1
+    statModifiers: []
+  startingSpecialMeter: 3
+  freezeFor: 1
+  poisonFor: 3
+  burningInfo: 0200000005000000
+  vulnerableInfo:
+  - 2
+  - 1.5
+  shockedInfo: 020000000a000000
+  damnationInfo: 0200000001000000050000000a000000
+  iceResist: 10
+  fireResist: 0
+  poisonResist: 0
+  psychicResist: 20
+  lightningResist: 0
+  iceStatus: 0
+  fireStatus: 0
+  poisonStatus: 0
+  psychicStatus: 0
+  lightningStatus: 0
+  lifesteal:
+    baseValue: 0
+    maxValue: 100
+    minValue: 0
+    statModifiers: []
+  healChance:
+    baseValue: 0
+    maxValue: 100
+    minValue: 0
+    statModifiers: []
+  toughness:
+    baseValue: 0
+    maxValue: 100
+    minValue: 0
+    statModifiers: []
+  resistances:
+  - {fileID: 11400000, guid: 423e6900d04ce47c09d4093f6f008fa3, type: 2}
+  attacks:
+  - {fileID: 11400000, guid: 133d520d98eed4ef98e2a28065b3661d, type: 2}
+  - {fileID: 11400000, guid: 3e567838e4c5a4253954f40a205a500a, type: 2}
+  - {fileID: 11400000, guid: 8cec76426eb6c4b1997722f1ff6147e6, type: 2}
+  - {fileID: 11400000, guid: 8e50776d400d44aaca9ed6d586270341, type: 2}
+  - {fileID: 11400000, guid: 50aa1b73425824d1ea534cd94a400398, type: 2}
+  bossSpecials:
+  - {fileID: 11400000, guid: 0753bf521e8034e21bbf48e961fda827, type: 2}
+  specialAbility: {fileID: 0}
+  allyTokens:
+  - {fileID: 11400000, guid: d089f32dec34144408885a058201b29f, type: 2}
+  - {fileID: 11400000, guid: 8a7a0a74f324e41998655453ce05b860, type: 2}
+  - {fileID: 11400000, guid: f56c555b0370143d19cee2cefcb154b7, type: 2}
+  maxNumAllies: 1
+  abilityAfterDeath: 0
+  deathAbility: {fileID: 0}
+  dazedResAbility: 0
+  echoAbillity: 0
+  echoTokens: {fileID: 0}
+  canRevive: 0
+  reviveTokens: {fileID: 0}
+  isTransforming: 0
+  transformationTurn: 0
+  abilityOnSelfDestruct: 0
+  canSelfDestruct: 0
+  selfDestructTurn: 0
+  interactableNpc: {fileID: 0}
+  allAbilites: []
+  traits: []

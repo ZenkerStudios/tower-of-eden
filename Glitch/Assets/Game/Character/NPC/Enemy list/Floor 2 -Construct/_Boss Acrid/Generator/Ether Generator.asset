@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f2c2cd9a22e54a1d8b7618e32206c22, type: 3}
+  m_Name: Ether Generator
+  m_EditorClassIdentifier: 
+  background: That is by far the largest shard of ether I've ever seen. This generator
+    appears to be utilizing the shard to power everything in this lab and beyond.
+  isBoss: 0
+  isInteractable: 0
+  enemySprite: {fileID: 21300000, guid: bb6f558355fcf48579e4950b16f727fc, type: 3}
+  enemyIcon: {fileID: 21300000, guid: bb6f558355fcf48579e4950b16f727fc, type: 3}
+  enemySystem: {fileID: 11400000, guid: a00ff32eae837410cbb9c082cd5a3b27, type: 2}
+  _myType: {fileID: 11400000, guid: 3a33be39811074743822490dc7d3faa6, type: 2}
+  block: 0
+  maxMeterGain: 5
+  maxHealth:
+    baseValue: 100
+    maxValue: 9999
+    minValue: 50
+    statModifiers: []
+  accuracy:
+    baseValue: 100
+    maxValue: 100
+    minValue: 0
+    statModifiers: []
+  critChance:
+    baseValue: 20
+    maxValue: 100
+    minValue: 1
+    statModifiers: []
+  actions:
+    baseValue: 1
+    maxValue: 3
+    minValue: 1
+    statModifiers: []
+  startingSpecialMeter: 0
+  freezeFor: 1
+  poisonFor: 3
+  burningInfo: 0200000005000000
+  vulnerableInfo:
+  - 1
+  - 1.5
+  shockedInfo: 020000000a000000
+  damnationInfo: 0200000001000000050000000a000000
+  iceResist: 0
+  fireResist: 0
+  poisonResist: 20
+  psychicResist: 20
+  lightningResist: 0
+  iceStatus: 0
+  fireStatus: 0
+  poisonStatus: 0
+  psychicStatus: 0
+  lightningStatus: 0
+  lifesteal:
+    baseValue: 0
+    maxValue: 100
+    minValue: 0
+    statModifiers: []
+  healChance:
+    baseValue: 0
+    maxValue: 100
+    minValue: 0
+    statModifiers: []
+  toughness:
+    baseValue: 0
+    maxValue: 100
+    minValue: 0
+    statModifiers: []
+  resistances: []
+  attacks:
+  - {fileID: 11400000, guid: daf5d06a08e0a4f65b7ce8e1df33a39d, type: 2}
+  - {fileID: 11400000, guid: 04b032a3a696c479489707026779bbb5, type: 2}
+  - {fileID: 11400000, guid: c3e46643261394bee9780d986cb0447d, type: 2}
+  - {fileID: 11400000, guid: 70e9fdc672f744fa3ae1100d15485c48, type: 2}
+  - {fileID: 11400000, guid: d5c38b004d98b4d3a8ca23fbd36e0729, type: 2}
+  - {fileID: 11400000, guid: 47a7b2999bf554fe5b1978c585e579a8, type: 2}
+  bossSpecials:
+  - {fileID: 11400000, guid: 72cad206320c34115acdadf6afce76f0, type: 2}
+  specialAbility: {fileID: 0}
+  allyTokens: []
+  maxNumAllies: 0
+  abilityAfterDeath: 0
+  deathAbility: {fileID: 0}
+  dazedResAbility: 0
+  echoAbillity: 0
+  echoTokens: {fileID: 0}
+  canRevive: 0
+  reviveTokens: {fileID: 0}
+  isTransforming: 0
+  transformationTurn: 0
+  abilityOnSelfDestruct: 0
+  canSelfDestruct: 0
+  selfDestructTurn: 0
+  interactableNpc: {fileID: 0}
+  allAbilites: []
+  traits:
+  - trait: 20
+    powerAmount: 2
+  - trait: 1
+    powerAmount: 0

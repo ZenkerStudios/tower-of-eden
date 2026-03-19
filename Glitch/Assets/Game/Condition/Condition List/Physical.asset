@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2938717eb83e440f83d7fa474068c31, type: 3}
+  m_Name: Physical
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 21300000, guid: 3b7a0ec32f0984d6492b2730fc4f24db, type: 3}
+  spriteIndex: 43
+  desc: No effect
+  condName: NA
+  textColor: 9F9F9F
+  token: {fileID: 6996165001983018257, guid: f634a6c79b93946a5a86b2b0662742c9, type: 3}
+  vfx: {fileID: 1111490002474099325, guid: 3309b19c2042d4ab3912a494339f245a, type: 3}
+  audio: Physical

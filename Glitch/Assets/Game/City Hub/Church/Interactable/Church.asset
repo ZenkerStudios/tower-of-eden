@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 651f3990e65c44f57b9315796d2bf2dc, type: 3}
+  m_Name: Church
+  m_EditorClassIdentifier: 
+  background: 
+  thisNpc: 2
+  characterName: Absalom
+  npcSprite: {fileID: 21300000, guid: 571b07ddeae50a244bf18ff49a792480, type: 3}
+  npcSpriteIndex: 11
+  maxAdmiration: 5
+  familiarAdmirationThreshold: 2
+  giftable: 1
+  lowDialogueChance: 60
+  barkChance: 50
+  barkCooldown: 1
+  barks:
+  - {fileID: 11400000, guid: e9c4f28124607554e8dc6ef5dcd3e3ff, type: 2}
+  - {fileID: 11400000, guid: adc0eba2fa2808d40a876dc508a6cbb0, type: 2}
+  - {fileID: 11400000, guid: 98c9fcacc74002c43886c7c750372126, type: 2}
+  - {fileID: 11400000, guid: 0a5ad1d3aed95cc439daa487e401500a, type: 2}
+  - {fileID: 11400000, guid: 6dae23e16ca5ad649aec620cce2a2a97, type: 2}
+  - {fileID: 11400000, guid: 1323d4961c93c204ebdac22b2f8f966b, type: 2}
+  - {fileID: 11400000, guid: 873bcb965141e7246b6883caaed63ba5, type: 2}
+  - {fileID: 11400000, guid: aad3e2a891f686a408dd533e721229c7, type: 2}
+  - {fileID: 11400000, guid: c5d3a5a2122a84448a3a97f2dce68d83, type: 2}
+  - {fileID: 11400000, guid: 2bbb7156b6bbd1045a7de3e5b065f97e, type: 2}
+  - {fileID: 11400000, guid: 4ad6195232dffa9448f2ae3d08d30cbe, type: 2}
+  - {fileID: 11400000, guid: 397cfc06806ccfc44a18c886d2ea068f, type: 2}
+  - {fileID: 11400000, guid: 487a6a6748f7c0a4693159f2f49995bc, type: 2}
+  - {fileID: 11400000, guid: f07e2cd29ea77e6419066d800277949c, type: 2}
+  - {fileID: 11400000, guid: 7e85da1b70d6d464bbaa07041df61433, type: 2}
+  - {fileID: 11400000, guid: de215270b5e1bed4ba347d30e309ebd7, type: 2}
+  - {fileID: 11400000, guid: d189e599d3b6ed24b8b05b5ba293b4fb, type: 2}
+  deathBarks: []
+  abilityBarks: []
+  onPlayerDeathBark:
+  - {fileID: 11400000, guid: 4ad6195232dffa9448f2ae3d08d30cbe, type: 2}
+  - {fileID: 11400000, guid: d189e599d3b6ed24b8b05b5ba293b4fb, type: 2}
+  isBarking: 0

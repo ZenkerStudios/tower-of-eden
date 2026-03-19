@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac15c7ae5ff674de485fae90584a27de, type: 3}
+  m_Name: EDEN_016_01
+  m_EditorClassIdentifier: 
+  speakerNpc: {fileID: 11400000, guid: 37d47c66d7e524f63848b211d65f9a72, type: 2}
+  priority: 0
+  priorityWeight: 0
+  combatShopInteraction: 0
+  numCombatShopInteractionNeeded: 0
+  interactingWithNpc: {fileID: 11400000, guid: d1a91f304d880493a8086ae34c071e20, type: 2}
+  victoryRequirement: 0
+  enemyVictoryRequirement: 
+  numVictoryRequired: 0
+  strictNumInteraction: 0
+  strictNumInteractionNeeded: 0
+  softNumInteraction: 0
+  softNumInteractionNeeded: 0
+  numberOfAttempts: 0
+  numberOfAttemptsNeeded: 0
+  numberOfSuccessfulAttempts: 0
+  numberOfSuccessfulAttemptsNeeded: 0
+  numberDeathsRequired: 0
+  numberDeathsNeeded: 0
+  weaponType: 0
+  lastRunWeapon: 0
+  weaponRankRequirement: 0
+  weaponRankNeeded: 0
+  lastKilledRequirement: 0
+  lastKilledBy: 
+  blacksmithAdmirationRequirement: 0
+  blacksmithAdmirationLevelNeeded: 0
+  academyAdmirationRequirement: 0
+  academyAdmirationLevelNeeded: 0
+  churchAdmirationRequirement: 0
+  churchAdmirationLevelNeeded: 0
+  deathToEmpressRequirement: 0
+  numDeathToEmpressNeeded: 0
+  deathToHangedmanRequirement: 0
+  numDeathToHangedmanNeeded: 0
+  deathToMagicianRequirement: 0
+  numDeathToMagicianNeeded: 0
+  deathToFoolRequirement: 0
+  numDeathToFoolNeeded: 0
+  deathToPriestessRequirement: 0
+  numDeathToPriestessNeeded: 0
+  deathToStarRequirement: 0
+  numDeathToStarNeeded: 0
+  deathToKingRequirement: 0
+  numDeathToKingNeeded: 0
+  difficultyRequirement: 0
+  cutsceneRequirement: 0
+  floorRequirement: 0
+  priorConversationsNeeded:
+  - {fileID: 11400000, guid: e17a3b2a248f14e408d016ac29a2fb48, type: 2}
+  - {fileID: 11400000, guid: 6b841f2b3f150e744b9b38314b8024ea, type: 2}
+  - {fileID: 11400000, guid: 3e98cc65563aedc408d67f2c8d2efca9, type: 2}
+  - {fileID: 11400000, guid: 14807384d7772494f8407a0770f980d8, type: 2}
+  - {fileID: 11400000, guid: 645850f9639a56446a6c8ddd35a4bc8d, type: 2}
+  - {fileID: 11400000, guid: 4da2f58074fb60d4f8eac59feba92cac, type: 2}
+  - {fileID: 11400000, guid: d889746db6fd12641b701fa0ffe8e083, type: 2}
+  - {fileID: 11400000, guid: 7d3622bc2f765a540b597bcf5219b68b, type: 2}
+  - {fileID: 11400000, guid: a4018bc3c3ba1be48861feaeb7e19e80, type: 2}
+  - {fileID: 11400000, guid: b04ffc05dd639ea43b4373b0db8fcacc, type: 2}
+  - {fileID: 11400000, guid: b46fba6533e3ae145a4c0b2acedf3088, type: 2}
+  - {fileID: 11400000, guid: 51f4e2fb1c5fce341946f592e814bb3e, type: 2}
+  - {fileID: 11400000, guid: 85b0e8158ae40e845a9fed2511387931, type: 2}
+  - {fileID: 11400000, guid: 207a975061a8cc340be95ee68b1a98ec, type: 2}
+  - {fileID: 11400000, guid: 42abc180f90c6d04bbcf3b28cc478bdb, type: 2}
+  - {fileID: 11400000, guid: 5447e4b1e9794624997a6e49b2901b2b, type: 2}
+  hasReward: 0
+  showReward: 0
+  rewardSprite: {fileID: 0}
+  rewardMessage: 
+  rewardEnum: 0
+  dialogueBlock: I think we're getting close.
+  isLastDialogueNode: 0
+  isBark: 0
+  barkTimer: 0
+  prevDialogueNode: {fileID: 0}
+  nextDialogueNode: {fileID: 11400000, guid: ac0475f639d807a4a8e94a5b23a529d0, type: 2}
+  dialogueConditions: 
+  canInvalidate: 0
+  invalidateDialogueNodes: []

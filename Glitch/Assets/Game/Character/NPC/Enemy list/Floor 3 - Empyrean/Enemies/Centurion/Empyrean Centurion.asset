@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f2c2cd9a22e54a1d8b7618e32206c22, type: 3}
+  m_Name: Empyrean Centurion
+  m_EditorClassIdentifier: 
+  background: "Centurions are high-ranking officers who've mastered the art of defense.
+    It will be tough to get past them. \r"
+  isBoss: 0
+  isInteractable: 0
+  enemySprite: {fileID: 21300000, guid: f9084931f6a8b744cb441f94cb220532, type: 3}
+  enemyIcon: {fileID: 21300000, guid: f9084931f6a8b744cb441f94cb220532, type: 3}
+  enemySystem: {fileID: 11400000, guid: a00ff32eae837410cbb9c082cd5a3b27, type: 2}
+  _myType: {fileID: 11400000, guid: 6be1dcecad478444cb5225228c043fbb, type: 2}
+  block: 0
+  maxMeterGain: 2
+  maxHealth:
+    baseValue: 85
+    maxValue: 9999
+    minValue: 50
+    statModifiers: []
+  accuracy:
+    baseValue: 75
+    maxValue: 100
+    minValue: 1
+    statModifiers: []
+  critChance:
+    baseValue: 20
+    maxValue: 100
+    minValue: 1
+    statModifiers: []
+  actions:
+    baseValue: 1
+    maxValue: 3
+    minValue: 1
+    statModifiers: []
+  startingSpecialMeter: 0
+  freezeFor: 1
+  poisonFor: 2
+  burningInfo: 0200000005000000
+  vulnerableInfo:
+  - 1
+  - 1.5
+  shockedInfo: 020000000a000000
+  damnationInfo: 0200000001000000050000000a000000
+  iceResist: 0
+  fireResist: 15
+  poisonResist: 0
+  psychicResist: 0
+  lightningResist: 15
+  iceStatus: 0
+  fireStatus: 0
+  poisonStatus: 0
+  psychicStatus: 0
+  lightningStatus: 0
+  lifesteal:
+    baseValue: 0
+    maxValue: 100
+    minValue: 0
+    statModifiers: []
+  healChance:
+    baseValue: 0
+    maxValue: 100
+    minValue: 0
+    statModifiers: []
+  toughness:
+    baseValue: 5
+    maxValue: 100
+    minValue: 0
+    statModifiers: []
+  resistances:
+  - {fileID: 11400000, guid: 65d4d62f1094f4cd1a3bbf4ba69b016c, type: 2}
+  - {fileID: 11400000, guid: c0d8dfb7ce6a7442a97fd2c30ce24e47, type: 2}
+  attacks:
+  - {fileID: 11400000, guid: 4866c228ea232474b90fe3b922a9e996, type: 2}
+  - {fileID: 11400000, guid: 2490af8abebbb4b1c912e75df5e151f8, type: 2}
+  - {fileID: 11400000, guid: 2cdf1795da7e84824b18aa3e29acfc78, type: 2}
+  - {fileID: 11400000, guid: 3289517d1353b4ba78a10409b01ae069, type: 2}
+  - {fileID: 11400000, guid: 2acd12f841cc34d5aa79eee8d76e1949, type: 2}
+  - {fileID: 11400000, guid: 2acd12f841cc34d5aa79eee8d76e1949, type: 2}
+  - {fileID: 11400000, guid: 4866c228ea232474b90fe3b922a9e996, type: 2}
+  - {fileID: 11400000, guid: 4866c228ea232474b90fe3b922a9e996, type: 2}
+  - {fileID: 11400000, guid: 449862bbc254b403caaebd3765b2066c, type: 2}
+  - {fileID: 11400000, guid: 449862bbc254b403caaebd3765b2066c, type: 2}
+  bossSpecials: []
+  specialAbility: {fileID: 0}
+  allyTokens:
+  - {fileID: 11400000, guid: 7680799ba91eb440197b70246b2454a3, type: 2}
+  - {fileID: 11400000, guid: 3b34270058c5a47a19253b678107886b, type: 2}
+  - {fileID: 11400000, guid: 8ec939d36733146729062677f217ed48, type: 2}
+  maxNumAllies: 1
+  abilityAfterDeath: 0
+  deathAbility: {fileID: 0}
+  dazedResAbility: 0
+  echoAbillity: 0
+  echoTokens: {fileID: 0}
+  canRevive: 0
+  reviveTokens: {fileID: 0}
+  isTransforming: 0
+  transformationTurn: 0
+  abilityOnSelfDestruct: 0
+  canSelfDestruct: 0
+  selfDestructTurn: 0
+  interactableNpc: {fileID: 11400000, guid: 34af83af963ffc9419aab112bc29cb70, type: 2}
+  allAbilites: []
+  traits:
+  - trait: 21
+    powerAmount: 1

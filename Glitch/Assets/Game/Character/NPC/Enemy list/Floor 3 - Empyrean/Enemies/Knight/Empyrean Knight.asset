@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f2c2cd9a22e54a1d8b7618e32206c22, type: 3}
+  m_Name: Empyrean Knight
+  m_EditorClassIdentifier: 
+  background: I remember a time when being a knight meant something. Now, they are
+    nothing more than personal lapdogs for whoever can afford them.
+  isBoss: 0
+  isInteractable: 0
+  enemySprite: {fileID: 21300000, guid: dda783dbba8923a4d83db2e4c15cc6c8, type: 3}
+  enemyIcon: {fileID: 21300000, guid: dda783dbba8923a4d83db2e4c15cc6c8, type: 3}
+  enemySystem: {fileID: 11400000, guid: a00ff32eae837410cbb9c082cd5a3b27, type: 2}
+  _myType: {fileID: 11400000, guid: 6be1dcecad478444cb5225228c043fbb, type: 2}
+  block: 0
+  maxMeterGain: 0
+  maxHealth:
+    baseValue: 75
+    maxValue: 9999
+    minValue: 50
+    statModifiers: []
+  accuracy:
+    baseValue: 75
+    maxValue: 100
+    minValue: 1
+    statModifiers: []
+  critChance:
+    baseValue: 20
+    maxValue: 100
+    minValue: 1
+    statModifiers: []
+  actions:
+    baseValue: 1
+    maxValue: 3
+    minValue: 1
+    statModifiers: []
+  startingSpecialMeter: 0
+  freezeFor: 1
+  poisonFor: 2
+  burningInfo: 0200000005000000
+  vulnerableInfo:
+  - 1
+  - 1.5
+  shockedInfo: 020000000a000000
+  damnationInfo: 0200000001000000050000000a000000
+  iceResist: 0
+  fireResist: 15
+  poisonResist: 0
+  psychicResist: 0
+  lightningResist: 15
+  iceStatus: 0
+  fireStatus: 0
+  poisonStatus: 0
+  psychicStatus: 0
+  lightningStatus: 0
+  lifesteal:
+    baseValue: 0
+    maxValue: 100
+    minValue: 0
+    statModifiers: []
+  healChance:
+    baseValue: 0
+    maxValue: 100
+    minValue: 0
+    statModifiers: []
+  toughness:
+    baseValue: 3
+    maxValue: 100
+    minValue: 0
+    statModifiers: []
+  resistances:
+  - {fileID: 11400000, guid: 65d4d62f1094f4cd1a3bbf4ba69b016c, type: 2}
+  - {fileID: 11400000, guid: c0d8dfb7ce6a7442a97fd2c30ce24e47, type: 2}
+  attacks:
+  - {fileID: 11400000, guid: 0a6f90dd83ce44de9b17200f06be122b, type: 2}
+  - {fileID: 11400000, guid: 4b8a67f6592f5406f99faa1955ddfb0f, type: 2}
+  - {fileID: 11400000, guid: 977c561875d0a459a84a49a0ddef3183, type: 2}
+  - {fileID: 11400000, guid: 90fde09441c6b4efa9aedcee13dd44e5, type: 2}
+  bossSpecials: []
+  specialAbility: {fileID: 0}
+  allyTokens: []
+  maxNumAllies: 0
+  abilityAfterDeath: 0
+  deathAbility: {fileID: 0}
+  dazedResAbility: 0
+  echoAbillity: 0
+  echoTokens: {fileID: 0}
+  canRevive: 0
+  reviveTokens: {fileID: 0}
+  isTransforming: 0
+  transformationTurn: 0
+  abilityOnSelfDestruct: 0
+  canSelfDestruct: 0
+  selfDestructTurn: 0
+  interactableNpc: {fileID: 11400000, guid: 34af83af963ffc9419aab112bc29cb70, type: 2}
+  allAbilites: []
+  traits: []

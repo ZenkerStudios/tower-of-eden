@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d25248cc3a66f48c591ad59c2dee34a9, type: 3}
+  m_Name: _Repeated Lightning Shots
+  m_EditorClassIdentifier: 
+  specialSystem: {fileID: 11400000, guid: e6047ae3fcdc54e41b77b6c2729ebd1e, type: 2}
+  canLevelup: 0
+  rarity: 2
+  specialDesc: Deal 3 Lightning Damage 4 times.
+  abilityType: 0
+  targetType: 1
+  numTarget: 1
+  abilityDuration: 0
+  statusChance: 0
+  stats: 0e0000000e0000000e0000000e000000
+  modType: 64000000640000006400000064000000
+  powerAmount: 03000000030000000300000003000000
+  skillToGain: {fileID: 0}
+  damageType: {fileID: 11400000, guid: c0d8dfb7ce6a7442a97fd2c30ce24e47, type: 2}
+  abilitySprite: {fileID: 21300000, guid: cc839baf9fbc04600bb8b993f2796e4f, type: 3}
+  abilitySpriteIndex: 0
+  vfx: {fileID: 6880364392258764813, guid: b89f4192c98d545cd905d86b63fadef4, type: 3}

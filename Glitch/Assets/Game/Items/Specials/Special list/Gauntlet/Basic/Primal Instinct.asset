@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d25248cc3a66f48c591ad59c2dee34a9, type: 3}
+  m_Name: Primal Instinct
+  m_EditorClassIdentifier: 
+  specialSystem: {fileID: 11400000, guid: e6047ae3fcdc54e41b77b6c2729ebd1e, type: 2}
+  canLevelup: 1
+  rarity: 2
+  specialDesc: Gain /status amount0 Critical Chance <sprite=47> and /status amount1
+    Accuracy <sprite=46>
+  abilityType: 2
+  targetType: 0
+  numTarget: 1
+  abilityDuration: 1
+  statusChance: 0
+  stats: 0200000001000000
+  modType: 6400000064000000
+  powerAmount: 0f0000000f000000
+  skillToGain: {fileID: 0}
+  damageType: {fileID: 0}
+  abilitySprite: {fileID: 21300000, guid: c0d1c9eb184af974093f14088a54c041, type: 3}
+  abilitySpriteIndex: 80
+  vfx: {fileID: 8641634708080996445, guid: 506be1ae932e84745908ac960721c8ee, type: 3}

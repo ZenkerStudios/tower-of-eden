@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f2c2cd9a22e54a1d8b7618e32206c22, type: 3}
+  m_Name: Ether Clone
+  m_EditorClassIdentifier: 
+  background: "A clone of the king, made entirely of ether. They possess magic just
+    as potent as the king's, despite not being alive.\r"
+  isBoss: 0
+  isInteractable: 0
+  enemySprite: {fileID: 21300000, guid: 226461e26aa96164092d388b4eee71f8, type: 3}
+  enemyIcon: {fileID: 21300000, guid: 226461e26aa96164092d388b4eee71f8, type: 3}
+  enemySystem: {fileID: 11400000, guid: a00ff32eae837410cbb9c082cd5a3b27, type: 2}
+  _myType: {fileID: 11400000, guid: 3a33be39811074743822490dc7d3faa6, type: 2}
+  block: 0
+  maxMeterGain: 0
+  maxHealth:
+    baseValue: 100
+    maxValue: 9999
+    minValue: 80
+    statModifiers: []
+  accuracy:
+    baseValue: 80
+    maxValue: 100
+    minValue: 0
+    statModifiers: []
+  critChance:
+    baseValue: 20
+    maxValue: 100
+    minValue: 1
+    statModifiers: []
+  actions:
+    baseValue: 2
+    maxValue: 4
+    minValue: 1
+    statModifiers: []
+  startingSpecialMeter: 7
+  freezeFor: 1
+  poisonFor: 3
+  burningInfo: 0200000005000000
+  vulnerableInfo:
+  - 1
+  - 1.5
+  shockedInfo: 020000000a000000
+  damnationInfo: 0200000001000000050000000a000000
+  iceResist: 0
+  fireResist: 0
+  poisonResist: 20
+  psychicResist: 20
+  lightningResist: 0
+  iceStatus: 10
+  fireStatus: 10
+  poisonStatus: 10
+  psychicStatus: 10
+  lightningStatus: 10
+  lifesteal:
+    baseValue: 0
+    maxValue: 100
+    minValue: 0
+    statModifiers: []
+  healChance:
+    baseValue: 0
+    maxValue: 100
+    minValue: 0
+    statModifiers: []
+  toughness:
+    baseValue: 0
+    maxValue: 100
+    minValue: 0
+    statModifiers: []
+  resistances:
+  - {fileID: 11400000, guid: f6e849331cc384d5185336df60b3f834, type: 2}
+  attacks:
+  - {fileID: 11400000, guid: cb91d3100c280f54896302e7e90d753a, type: 2}
+  - {fileID: 11400000, guid: 3a2223eb59717d149a063a94de7ca025, type: 2}
+  - {fileID: 11400000, guid: cb12ba0139a3423498c9aabab95e6030, type: 2}
+  - {fileID: 11400000, guid: 72e5332f142c5e94a94fe5ba8203d4bc, type: 2}
+  bossSpecials: []
+  specialAbility: {fileID: 0}
+  allyTokens: []
+  maxNumAllies: 0
+  abilityAfterDeath: 0
+  deathAbility: {fileID: 0}
+  dazedResAbility: 0
+  echoAbillity: 0
+  echoTokens: {fileID: 0}
+  canRevive: 0
+  reviveTokens: {fileID: 0}
+  isTransforming: 0
+  transformationTurn: 0
+  abilityOnSelfDestruct: 0
+  canSelfDestruct: 0
+  selfDestructTurn: 0
+  interactableNpc: {fileID: 0}
+  allAbilites: []
+  traits: []

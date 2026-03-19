@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f2c2cd9a22e54a1d8b7618e32206c22, type: 3}
+  m_Name: Raptor
+  m_EditorClassIdentifier: 
+  background: "Saints! I thought raptors were an endangered species. I guess I shouldn't
+    be surprised that they are being held captive solely for entertainment. As much
+    as I'd want to avoid a conflict, these beasts are aggressive. I can't afford
+    to go easy on them.\r"
+  isBoss: 0
+  isInteractable: 0
+  enemySprite: {fileID: 21300000, guid: 98e993acea3244829af0ec0ff58c9dcb, type: 3}
+  enemyIcon: {fileID: 0}
+  enemySystem: {fileID: 11400000, guid: a00ff32eae837410cbb9c082cd5a3b27, type: 2}
+  _myType: {fileID: 11400000, guid: ed05bafae195c4b30911da0c9f55c49b, type: 2}
+  block: 0
+  maxMeterGain: 0
+  maxHealth:
+    baseValue: 30
+    maxValue: 9999
+    minValue: 1
+    statModifiers: []
+  accuracy:
+    baseValue: 70
+    maxValue: 100
+    minValue: 1
+    statModifiers: []
+  critChance:
+    baseValue: 10
+    maxValue: 100
+    minValue: 1
+    statModifiers: []
+  actions:
+    baseValue: 1
+    maxValue: 3
+    minValue: 1
+    statModifiers: []
+  startingSpecialMeter: 0
+  freezeFor: 1
+  poisonFor: 3
+  burningInfo: 0200000005000000
+  vulnerableInfo:
+  - 2
+  - 1.5
+  shockedInfo: 020000000a000000
+  damnationInfo: 0200000001000000050000000a000000
+  iceResist: 5
+  fireResist: 0
+  poisonResist: 0
+  psychicResist: 0
+  lightningResist: 0
+  iceStatus: 0
+  fireStatus: 0
+  poisonStatus: 0
+  psychicStatus: 0
+  lightningStatus: 0
+  lifesteal:
+    baseValue: 0
+    maxValue: 100
+    minValue: 0
+    statModifiers: []
+  healChance:
+    baseValue: 0
+    maxValue: 100
+    minValue: 0
+    statModifiers: []
+  toughness:
+    baseValue: 0
+    maxValue: 100
+    minValue: 0
+    statModifiers: []
+  resistances: []
+  attacks:
+  - {fileID: 11400000, guid: 0f49e7d4b705f4aba8018073564ad3b8, type: 2}
+  - {fileID: 11400000, guid: 642dda3dd49ee44faa1b28585b0bb222, type: 2}
+  - {fileID: 11400000, guid: 464ac6fb5148440e38124eadac11e08a, type: 2}
+  bossSpecials: []
+  specialAbility: {fileID: 0}
+  allyTokens: []
+  maxNumAllies: 0
+  abilityAfterDeath: 0
+  deathAbility: {fileID: 0}
+  dazedResAbility: 0
+  echoAbillity: 0
+  echoTokens: {fileID: 0}
+  canRevive: 0
+  reviveTokens: {fileID: 0}
+  isTransforming: 0
+  transformationTurn: 0
+  abilityOnSelfDestruct: 0
+  canSelfDestruct: 0
+  selfDestructTurn: 0
+  interactableNpc: {fileID: 0}
+  allAbilites: []
+  traits: []

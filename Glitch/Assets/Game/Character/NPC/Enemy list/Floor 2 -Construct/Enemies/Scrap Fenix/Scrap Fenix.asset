@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f2c2cd9a22e54a1d8b7618e32206c22, type: 3}
+  m_Name: Scrap Fenix
+  m_EditorClassIdentifier: 
+  background: A construct made to defend and repair other constructs. Impressive.
+  isBoss: 0
+  isInteractable: 0
+  enemySprite: {fileID: 21300000, guid: dab93772937c84e2394b4ae5cd5f228b, type: 3}
+  enemyIcon: {fileID: 0}
+  enemySystem: {fileID: 11400000, guid: a00ff32eae837410cbb9c082cd5a3b27, type: 2}
+  _myType: {fileID: 11400000, guid: 3a33be39811074743822490dc7d3faa6, type: 2}
+  block: 0
+  maxMeterGain: 5
+  maxHealth:
+    baseValue: 25
+    maxValue: 9999
+    minValue: 10
+    statModifiers: []
+  accuracy:
+    baseValue: 70
+    maxValue: 100
+    minValue: 0
+    statModifiers: []
+  critChance:
+    baseValue: 30
+    maxValue: 100
+    minValue: 1
+    statModifiers: []
+  actions:
+    baseValue: 1
+    maxValue: 3
+    minValue: 1
+    statModifiers: []
+  startingSpecialMeter: 0
+  freezeFor: 1
+  poisonFor: 2
+  burningInfo: 0200000005000000
+  vulnerableInfo:
+  - 2
+  - 1.5
+  shockedInfo: 020000000a000000
+  damnationInfo: 0200000001000000050000000a000000
+  iceResist: 0
+  fireResist: 15
+  poisonResist: 15
+  psychicResist: 0
+  lightningResist: 0
+  iceStatus: 0
+  fireStatus: 0
+  poisonStatus: 0
+  psychicStatus: 0
+  lightningStatus: 10
+  lifesteal:
+    baseValue: 0
+    maxValue: 100
+    minValue: 0
+    statModifiers: []
+  healChance:
+    baseValue: 0
+    maxValue: 100
+    minValue: 0
+    statModifiers: []
+  toughness:
+    baseValue: 0
+    maxValue: 100
+    minValue: 0
+    statModifiers: []
+  resistances: []
+  attacks:
+  - {fileID: 11400000, guid: a6ae4f4b5d30d4e17b613dd209de9d30, type: 2}
+  - {fileID: 11400000, guid: 9af27cc2a503941e0be83da4e8682b4a, type: 2}
+  - {fileID: 11400000, guid: 1e3612c3c9fe840f78a7119214f614f3, type: 2}
+  - {fileID: 11400000, guid: 2e39bafdf3cae4a60acdf80db6e18a73, type: 2}
+  - {fileID: 11400000, guid: db4ed5949ecec4ddb8216def958e063c, type: 2}
+  - {fileID: 11400000, guid: bf9921eefb5ed4ccfaf64a66882142aa, type: 2}
+  bossSpecials:
+  - {fileID: 11400000, guid: b811ea955693f4c09b80ac46d775bc20, type: 2}
+  specialAbility: {fileID: 0}
+  allyTokens: []
+  maxNumAllies: 0
+  abilityAfterDeath: 0
+  deathAbility: {fileID: 0}
+  dazedResAbility: 0
+  echoAbillity: 0
+  echoTokens: {fileID: 0}
+  canRevive: 1
+  reviveTokens: {fileID: 11400000, guid: 56843894b3fa144a784e85f5dc35cbf7, type: 2}
+  isTransforming: 0
+  transformationTurn: 0
+  abilityOnSelfDestruct: 0
+  canSelfDestruct: 0
+  selfDestructTurn: 0
+  interactableNpc: {fileID: 11400000, guid: 603b6206682af43218c1931452ab341c, type: 2}
+  allAbilites: []
+  traits:
+  - trait: 2
+    powerAmount: 0

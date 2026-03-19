@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f2c2cd9a22e54a1d8b7618e32206c22, type: 3}
+  m_Name: Acrid, The Magician
+  m_EditorClassIdentifier: 
+  background: This must be Acrid, the head of the science division. No one really
+    knows where he came from or how he managed to secure a place on the king's council.
+    Come to think of it, he has never shown his face. If everything I've come across
+    is his creation, then I can understand why he rose through the ranks so quickly.
+  isBoss: 1
+  isInteractable: 1
+  enemySprite: {fileID: 21300000, guid: e2a41ba4e6c884d49a450e9d225024c8, type: 3}
+  enemyIcon: {fileID: 21300000, guid: e2a41ba4e6c884d49a450e9d225024c8, type: 3}
+  enemySystem: {fileID: 11400000, guid: a00ff32eae837410cbb9c082cd5a3b27, type: 2}
+  _myType: {fileID: 11400000, guid: 6be1dcecad478444cb5225228c043fbb, type: 2}
+  block: 0
+  maxMeterGain: 3
+  maxHealth:
+    baseValue: 250
+    maxValue: 9999
+    minValue: 200
+    statModifiers: []
+  accuracy:
+    baseValue: 70
+    maxValue: 100
+    minValue: 0
+    statModifiers: []
+  critChance:
+    baseValue: 20
+    maxValue: 100
+    minValue: 1
+    statModifiers: []
+  actions:
+    baseValue: 2
+    maxValue: 4
+    minValue: 1
+    statModifiers: []
+  startingSpecialMeter: 1
+  freezeFor: 1
+  poisonFor: 2
+  burningInfo: 0200000005000000
+  vulnerableInfo:
+  - 2
+  - 1.5
+  shockedInfo: 020000000a000000
+  damnationInfo: 0200000001000000050000000a000000
+  iceResist: 15
+  fireResist: 15
+  poisonResist: 15
+  psychicResist: 0
+  lightningResist: 15
+  iceStatus: 5
+  fireStatus: 5
+  poisonStatus: 5
+  psychicStatus: 0
+  lightningStatus: 5
+  lifesteal:
+    baseValue: 0
+    maxValue: 100
+    minValue: 0
+    statModifiers: []
+  healChance:
+    baseValue: 0
+    maxValue: 100
+    minValue: 0
+    statModifiers: []
+  toughness:
+    baseValue: 0
+    maxValue: 100
+    minValue: 0
+    statModifiers: []
+  resistances:
+  - {fileID: 11400000, guid: 65d4d62f1094f4cd1a3bbf4ba69b016c, type: 2}
+  - {fileID: 11400000, guid: bf1dcdf3561cc422daa0de8e3ae9874d, type: 2}
+  - {fileID: 11400000, guid: c0d8dfb7ce6a7442a97fd2c30ce24e47, type: 2}
+  - {fileID: 11400000, guid: a429c68fd446047d79eb943413286ba8, type: 2}
+  attacks:
+  - {fileID: 11400000, guid: 2856ab2551ae54684a5e063b244ab936, type: 2}
+  - {fileID: 11400000, guid: 17991ab5e9ea54954b189857eebfac10, type: 2}
+  - {fileID: 11400000, guid: d0ede260244da4b328ab81d83de4953d, type: 2}
+  - {fileID: 11400000, guid: 91723633c6c8a4229b27b9da724e6629, type: 2}
+  - {fileID: 11400000, guid: e964ac8de5c414bb897aaedb5fa84642, type: 2}
+  - {fileID: 11400000, guid: 18fbb8508d5c84673bb00fc6d27b6888, type: 2}
+  - {fileID: 11400000, guid: 18fbb8508d5c84673bb00fc6d27b6888, type: 2}
+  - {fileID: 11400000, guid: 18fbb8508d5c84673bb00fc6d27b6888, type: 2}
+  - {fileID: 11400000, guid: 18fbb8508d5c84673bb00fc6d27b6888, type: 2}
+  bossSpecials:
+  - {fileID: 11400000, guid: 433d164e322b444f6867d6ff5cfd10a0, type: 2}
+  - {fileID: 11400000, guid: 896f3128a00bb4d48bce563a03b7962b, type: 2}
+  - {fileID: 11400000, guid: df80f54c4b35145cc9a95b09098fcc6f, type: 2}
+  - {fileID: 11400000, guid: cd480d49d96d746a8991cb0ed6ef388a, type: 2}
+  specialAbility: {fileID: 0}
+  allyTokens: []
+  maxNumAllies: 0
+  abilityAfterDeath: 0
+  deathAbility: {fileID: 0}
+  dazedResAbility: 0
+  echoAbillity: 0
+  echoTokens: {fileID: 0}
+  canRevive: 0
+  reviveTokens: {fileID: 0}
+  isTransforming: 0
+  transformationTurn: 0
+  abilityOnSelfDestruct: 0
+  canSelfDestruct: 0
+  selfDestructTurn: 0
+  interactableNpc: {fileID: 11400000, guid: b9f667f3be38a43188f462f9c8eb5f31, type: 2}
+  allAbilites: []
+  traits:
+  - trait: 4
+    powerAmount: 0

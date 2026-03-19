@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d25248cc3a66f48c591ad59c2dee34a9, type: 3}
+  m_Name: _Smother
+  m_EditorClassIdentifier: 
+  specialSystem: {fileID: 11400000, guid: e6047ae3fcdc54e41b77b6c2729ebd1e, type: 2}
+  canLevelup: 0
+  rarity: 2
+  specialDesc: Temporarily decrease target's Action.
+  abilityType: 3
+  targetType: 1
+  numTarget: 1
+  abilityDuration: 2
+  statusChance: 0
+  stats: 03000000
+  modType: 64000000
+  powerAmount: 01000000
+  skillToGain: {fileID: 0}
+  damageType: {fileID: 0}
+  abilitySprite: {fileID: 21300000, guid: 8899411c854914ec6afa3104ff1adf4e, type: 3}
+  vfx: {fileID: 8641634708080996445, guid: 249bd0f193c374761bc125bd49a1efc7, type: 3}
+  audio: Debuff

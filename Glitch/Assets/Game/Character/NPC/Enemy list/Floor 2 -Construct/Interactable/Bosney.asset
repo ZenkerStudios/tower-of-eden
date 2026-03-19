@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 651f3990e65c44f57b9315796d2bf2dc, type: 3}
+  m_Name: Bosney
+  m_EditorClassIdentifier: 
+  background: Bosney was a young and impressionable knight apprentice. He joined
+    the King's Guard hoping to follow in Dorian's footstep. However, through a series
+    of unfortunate events, he found out the truth about Acrid's and the King's secret
+    arrangement. Bosney wanted to honor his oath and do what was right for the Kingdom,
+    he refused to stand by and let the Kingdom go to ruin. As punishment for his
+    virtue, he was imprisoned and used as a test subject. Forced to live existense
+    as the apotheosis of Acrid's folly, a hideous fusion of machinery and flesh.
+  thisNpc: 4
+  characterName: Bosney, The Hanged Man
+  npcSprite: {fileID: 21300000, guid: 77eaa57e0d4b25b48aea329072a4d96c, type: 3}
+  npcSpriteIndex: 7
+  maxAdmiration: 0
+  familiarAdmirationThreshold: 0
+  giftable: 0
+  lowDialogueChance: 0
+  barkChance: 20
+  barkCooldown: 2
+  barks:
+  - {fileID: 11400000, guid: 718354bfa85caff4cb75d2f3e821d63f, type: 2}
+  - {fileID: 11400000, guid: 3aeeb49229171f744bdd41618c057a58, type: 2}
+  - {fileID: 11400000, guid: a26461f542cf45c47b3c28d90759cd1c, type: 2}
+  - {fileID: 11400000, guid: fff918c189bccc14eaec3f068f93dcd5, type: 2}
+  deathBarks: []
+  abilityBarks:
+  - {fileID: 11400000, guid: 718354bfa85caff4cb75d2f3e821d63f, type: 2}
+  - {fileID: 11400000, guid: 3aeeb49229171f744bdd41618c057a58, type: 2}
+  - {fileID: 11400000, guid: a26461f542cf45c47b3c28d90759cd1c, type: 2}
+  - {fileID: 11400000, guid: fff918c189bccc14eaec3f068f93dcd5, type: 2}
+  onPlayerDeathBark:
+  - {fileID: 11400000, guid: 718354bfa85caff4cb75d2f3e821d63f, type: 2}
+  - {fileID: 11400000, guid: 3aeeb49229171f744bdd41618c057a58, type: 2}
+  - {fileID: 11400000, guid: a26461f542cf45c47b3c28d90759cd1c, type: 2}
+  - {fileID: 11400000, guid: fff918c189bccc14eaec3f068f93dcd5, type: 2}
+  isBarking: 0
